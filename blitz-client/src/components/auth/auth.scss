@@ -1,0 +1,42 @@
+.form-container {
+    padding: 3em;
+    border-radius: 1em;
+    background-color: white;
+
+    form {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+
+        label {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+
+            input, select {
+                height: 3.5em;
+                padding: .5em;
+                width: 360px;
+                font-size: 1em;
+            }
+        }
+
+        button {
+            height: 4em;
+            width: 200px;
+        }
+
+        .action {
+            opacity: 0.8;
+            color: gray;
+            cursor: pointer;
+        }
+
+        .action:hover {
+            color: red;
+        }
+    }
+}
